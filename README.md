@@ -9,11 +9,11 @@ Part I: Command Line Tool: A standalone script for ranking alternatives based on
 
 Part II:A Python package is developed and hosted on PyPI following specific naming conventions.
 
-Package Name Format: Topsis-UpkarKaur-102497017
+-Package Name Format: Topsis-UpkarKaur-102497017
 
-User Manual: Included in the package documentation.
+-User Manual: Included in the package documentation.
 
-Testing: Can be installed via pip install <package-name> and run directly from the terminal.
+-Testing: Can be installed via pip install <package-name> and run directly from the terminal.
 
 Part III: Web Service:A Flask-based web interface allows users to upload files and receive results via email.
 
