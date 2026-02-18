@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: Topsis-UpkarKaur-102497017
+Version: 1.0.1
+Summary: A Python package to implement TOPSIS method.
+Author: Upkar Kaur
+Author-email: your_email@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Topsis-UpkarKaur-102497017
+
+Python implementation of TOPSIS method.
+
+## Installation
+
+pip install Topsis-UpkarKaur-102497017
+
+## Usage
+
+topsis data.csv 1,1,1,2 +,+,-,+ result.csv
+
+## Requirements
+- Python >= 3.6
+- pandas
+- numpy
