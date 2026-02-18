@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOPSIS Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; background-color: #f4f4f9; }
+        .container { max-width: 500px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #333; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #28a745; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; width: 100%; }
+        button:hover { background-color: #218838; }
+        .hint { font-size: 0.8em; color: #666; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>TOPSIS Calculator</h2>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        
+        <label>Upload Excel/CSV File:</label>
+        <input type="file" name="file" accept=".xlsx, .csv" required>
+
+        <label>Weights:</label>
+        <p class="hint">Comma-separated (e.g., 1,1,1,2)</p>
+        <input type="text" name="weights" placeholder="1,1,1,1" required>
+
+        <label>Impacts:</label>
+        <p class="hint">Comma-separated + or - (e.g., +,+,-,+)</p>
+        <input type="text" name="impacts" placeholder="+,-,+,+" required>
+
+        <label>Email Address:</label>
+        <input type="email" name="email" placeholder="yourname@gmail.com" required>
+
+        <button type="submit">Calculate & Send Result</button>
+    </form>
+</div>
+
+</body>
+</html>
